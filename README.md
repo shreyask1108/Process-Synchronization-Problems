@@ -12,11 +12,11 @@ The primary goal of synchronization is to ensure that the producers and consumer
 
 The three types of buffer involved in this problem:
 
-<ul><li>Bounded Buffer<li/>
+•	Bounded Buffer
 
-<li>Infinite Buffer<li/>
+•	Infinite Buffer
 
-<li>Cyclic Buffer<li/>
+•	Cyclic Buffer
 
 
 ##3StarveFree and DeadlockFree Solution
