@@ -1,8 +1,8 @@
 # Process-Synchronization-Problems
 
-##Producer Consumer Problem
+## Producer Consumer Problem
 
-###ProblemStatement
+### ProblemStatement
 
 The producer-consumer synchronization problem is a classical synchronization problem in computer science, particularly in operating system design and parallel computing.<br>
 
@@ -19,7 +19,7 @@ The three types of buffer involved in this problem:
 •	Cyclic Buffer
 
 
-##3StarveFree and DeadlockFree Solution
+### StarveFree and DeadlockFree Solution
 
 We will be using the following parameters to solve the problem:
 
@@ -39,9 +39,9 @@ Semaphores
 
 <br>
 
-##Readers–Writers Problem
+## Readers–Writers Problem
 
-##ProblemStatement
+### ProblemStatement
 
 The problem involves multiple processes, some of which want to read a single shared resource, while others want to write to it. The problem can be challenging to solve because it requires a balance between allowing multiple readers to access the resource concurrently while ensuring that only one writer can access it at a time.
 
@@ -60,7 +60,7 @@ The simulation should satisfy the following conditions:
 •	The system should be starve free.
 
 
-###StarveFree and DeadlockFree Solution
+### StarveFree and DeadlockFree Solution
 
 We will be using the following parameters to solve the problem:
 
@@ -76,9 +76,9 @@ We will be using the following parameters to solve the problem:
 
 
 
-##Dining Philosophers Problem
+## Dining Philosophers Problem
 
-###ProblemStatement
+### ProblemStatement
 
 The dining philosopher's problem is the classical problem of synchronization which says that Five philosophers are sitting around a circular table and their job is to think and eat alternatively. A bowl of noodles is placed at the center of the table along with five chopsticks for each of the philosophers. To eat a philosopher needs both a right and a left chopstick. A philosopher can only eat if both the immediate left and right chopsticks of the philosopher are available. In case both the immediate left and right chopsticks of the philosopher are not available then the philosopher puts down their (either left or right) chopstick and starts thinking again.
 
@@ -117,9 +117,9 @@ We will be using the following parameters to solve the problem:
 
 
 
-##Sleeping Barbers Problem
+## Sleeping Barbers Problem
 
-###ProblemStatement
+### ProblemStatement
 
 The Sleeping Barbers Problem with multiple barbers and multiple customers is a variation of the original problem. In this version of the problem, there are multiple barbers working in the barbershop, each with their own barber chair, and multiple customers waiting in the waiting chairs.
 
@@ -151,9 +151,9 @@ We will be using the following parameters to solve the problem:
 
 
 
-##Cigarette Smokers Problem
+## Cigarette Smokers Problem
 
-###ProblemStatement
+### ProblemStatement
 
 The cigarette smokers problem is a classic synchronization problem in Operating Systems. The problem is often used to illustrate the issues related to concurrent execution of multiple processes/threads and the need for synchronization mechanisms.
 
@@ -177,7 +177,7 @@ The simulation should satisfy the following conditions:
 
 •	Each smoker can only smoke if they have both necessary resources.
          
- ###StarveFree and DeadlockFree Solution
+ ### StarveFree and DeadlockFree Solution
  
 We will be using the following parameters to solve the problem:
 
@@ -195,14 +195,14 @@ The agent waits on a mutex to ensure that it does not place new ingredients on t
 
 
 
-##Rivers Crossing Problem
+## Rivers Crossing Problem
 
-###ProblemStatement
+### ProblemStatement
 
 There is a rowboat that is used by both Linux hackers and Microsoft employees (serfs) to cross a river. The ferry can hold exactly four people; it won’t leave the shore with more or fewer. To guarantee the safety of the passengers, it is not permissible to put one hacker in the boat with three serfs, or to put one serf with three hackers. Any other combination is safe.
 
 
-###StarveFree and DeadlockFree Solution
+### StarveFree and DeadlockFree Solution
 
 We will be using the following parameters to solve the problem:
 
@@ -227,9 +227,9 @@ Local variable used in Hackers() and Serfs() functions:
 
 
 
-##H2O Problem
+## H2O Problem
 
-###ProblemStatement
+### ProblemStatement
 
 Hydrogen and oxygen atoms keep arriving randomly to form water molecules. Whenever there are two free hydrogen atoms and one free oxygen atom, we pair them up to form a water molecule. Simulate this situation.
 
