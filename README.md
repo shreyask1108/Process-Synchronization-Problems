@@ -233,7 +233,7 @@ Local variable used in Hackers() and Serfs() functions:
 
 Hydrogen and oxygen atoms keep arriving randomly to form water molecules. Whenever there are two free hydrogen atoms and one free oxygen atom, we pair them up to form a water molecule. Simulate this situation.
 
-#StarveFreeandDeadlockFreeSolution
+### StarveFreeandDeadlockFreeSolution
 
 We will use the following parameters to solve this problem:
 •	
