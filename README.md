@@ -197,7 +197,7 @@ The agent waits on a mutex to ensure that it does not place new ingredients on t
 
 ## Rivers Crossing Problem
 
-### ProblemStatement
+### Problem Statement
 
 There is a rowboat that is used by both Linux hackers and Microsoft employees (serfs) to cross a river. The ferry can hold exactly four people; it won’t leave the shore with more or fewer. To guarantee the safety of the passengers, it is not permissible to put one hacker in the boat with three serfs, or to put one serf with three hackers. Any other combination is safe.
 
@@ -233,7 +233,7 @@ Local variable used in Hackers() and Serfs() functions:
 
 Hydrogen and oxygen atoms keep arriving randomly to form water molecules. Whenever there are two free hydrogen atoms and one free oxygen atom, we pair them up to form a water molecule. Simulate this situation.
 
-### StarveFreeandDeadlockFreeSolution
+### Starve Free and Deadlock Free Solution
 
 We will use the following parameters to solve this problem:
 •	
